@@ -1,4 +1,6 @@
- <!-- Fixed navbar -->
+
+
+<!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -21,7 +23,9 @@
        
             <li><%= link_to 'Modifier mon profil',   edit_model_registration_path %></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= current_model.email %> <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="img-circle avatar-small" src="<%= avatar_url(current_model)%>" /> <%= current_model.fullname %> <span class="caret"></span></a>
+           <style>
+           
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
