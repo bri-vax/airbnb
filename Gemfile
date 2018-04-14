@@ -39,6 +39,9 @@ gem 'spring',        group: :development
 
 #boostrap
 gem 'bootstrap-sass'
+#devise
+gem 'devise'
+gem 'devise-i18n'
 
 group :development , :test do
 # Use sqlite3 as the database for Active Record

@@ -1,3 +1,6 @@
 <h1>
   Bienvenue sur notre première pages
 </h1>
+<%= link_to 'Inscription',  new_model_registration_path %>
+<%= link_to 'Connexion',   new_model_session_path %>
+<%= link_to 'Déconnexion',   destroy_model_session_path, method: :delete %>
