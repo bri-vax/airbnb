@@ -40,7 +40,7 @@ gem 'spring',        group: :development
 #boostrap
 gem 'bootstrap-sass'
 
-group :developement ,:test do
+group :development , :test do
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 end
